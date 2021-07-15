@@ -1,0 +1,93 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(0, 11%, 12%);
+}
+
+section {
+  background: hsl(185, 79%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 350px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  text-align: center;
+}
+.card-body {
+  padding: 0 20px 30px;
+}
+.card-header {
+  background-image: url(/plain-19C3D2.svg);
+  background-size: cover;
+  height: 150px;
+}
+.image-holder {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  margin: -50px auto 30px auto;
+}
+.image-holder img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.name-age {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.city {
+  font-size: 0.9rem;
+}
+
+.age,
+.city,
+.meta {
+  font-weight: 400;
+  color: hsl(0, 11%, 12%);
+  opacity: 0.5;
+}
+
+.age {
+  font-weight: 350;
+}
+.card-footer {
+  border-top: 1px solid hsl(0, 3%, 86%);
+  display: flex;
+  padding: 0 25px;
+}
+.card-footer .item {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-footer .item .value {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.card-footer .item .meta {
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+}
